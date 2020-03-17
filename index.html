@@ -1,0 +1,20 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Connect 4</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js"></script>
+  </head>
+  <body style="width:100%; font-family: sans-serif; width: 100%; display: flex; align-items: center; flex-direction: column;">
+    <h1> Connect 4 </h1>
+    <div style="margin-bottom: 30px;">
+      <button id="btn1Player" type="button" style="display: inline;" onclick="setNumPlayers(1)">One Player</button>
+      <button id="btn2Player" type="button" style="display: inline;" onclick="setNumPlayers(2)">Two Player</button>
+      <button id="btnReset" type="button" style="display: inline;" onclick="resetGame()">Restart</button>
+    </div>
+    <div style="">
+      <script src="minimax.js"></script>
+      <script src="sketch.js"></script>
+    </div>
+  </body>
+</html>
